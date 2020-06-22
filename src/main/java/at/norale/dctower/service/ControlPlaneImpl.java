@@ -67,4 +67,14 @@ public class ControlPlaneImpl implements ControlPlane {
         });
     return state;
   }
+
+  @Override
+  public List<Elevator> getElevators() {
+    return elevators;
+  }
+
+  @Override
+  public int getNumberOfElevators() {
+    return NUMBER_OF_ELEVATORS;
+  }
 }

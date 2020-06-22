@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6005f2d8-2abe-48ff-a509-83dc67cc5151" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/at/norale/dctower/controller/ControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/norale/dctower/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/norale/dctower/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlaneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlaneImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/norale/dctower/service/ControlPlaneImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/norale/dctower/service/ControlPlaneImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/dctower.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/norale/dctower/Validators/FloorValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/norale/dctower/Validators/FloorValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/norale/dctower/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/norale/dctower/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/norale/dctower/service/ControlPlane.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/norale/dctower/service/ControlPlane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/norale/dctower/service/ControlPlaneImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/norale/dctower/service/ControlPlaneImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/at/norale/dctower/service/ControlPlaneImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/at/norale/dctower/service/ControlPlaneImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,20 +27,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="98">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/exceptions/ValidationException.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/at/norale/dctower/controller/ControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,10 +61,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlaneImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="207">
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2306#2307#0" expanded="true" />
+                <element signature="e#2331#2332#0" expanded="true" />
+                <element signature="e#2372#2373#0" expanded="true" />
+                <element signature="e#2407#2408#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/Validators/FloorValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+            <state relative-caret-position="288">
+              <caret line="28" column="78" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +114,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/at/norale/dctower/service/ControlPlaneImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="123">
+              <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="375">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,6 +154,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -151,13 +167,14 @@
         <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/exceptions/ServiceException.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/exceptions/ValidationException.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/Validators/Validator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/at/norale/dctower/service/ControlPlaneImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlaneImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ElevatorImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/Validators/FloorValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlane.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/Elevator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/test/java/at/norale/dctower/controller/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlaneImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlane.java" />
+        <option value="$PROJECT_DIR$/src/test/java/at/norale/dctower/service/ControlPlaneImplTest.java" />
       </list>
     </option>
   </component>
@@ -234,6 +251,54 @@
               <item name="dctower" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dctower" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dctower" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dctower" type="462c0819:PsiDirectoryNode" />
+              <item name="Validators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dctower" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dctower" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dctower" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dctower" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dctower" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dctower" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dctower" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dctower" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dctower" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dctower" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dctower" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dctower" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dctower" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -247,10 +312,21 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592836608607" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592842498183" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="at.norale.dctower.controller" />
+      <recent name="at.norale.dctower.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -264,7 +340,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in dctower">
+    <configuration name="All in dctower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dctower" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlPlaneImplTest.testAlwaysClosestElevatorIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dctower" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.norale.dctower.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.norale.dctower.service" />
+      <option name="MAIN_CLASS_NAME" value="at.norale.dctower.service.ControlPlaneImplTest" />
+      <option name="METHOD_NAME" value="testAlwaysClosestElevatorIsCalled" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DctowerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dctower" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="at.norale.dctower.DctowerApplication" />
@@ -272,6 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in dctower" />
+        <item itemvalue="JUnit.ControlPlaneImplTest.testAlwaysClosestElevatorIsCalled" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -286,7 +392,7 @@
       <workItem from="1592243248728" duration="543000" />
       <workItem from="1592826582923" duration="8271000" />
       <workItem from="1592836948878" duration="1501000" />
-      <workItem from="1592839251721" duration="300000" />
+      <workItem from="1592839251721" duration="3112000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1592835148894</created>
@@ -302,11 +408,29 @@
       <option name="project" value="LOCAL" />
       <updated>1592837925904</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added some java doc">
+      <created>1592839574492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592839574492</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ControlPlaneImplTest_testAlwaysClosestElevatorIsCalled - 2020.06.22 at 17h 38m 04s.xml">
+      <configuration name="ControlPlaneImplTest.testAlwaysClosestElevatorIsCalled" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_dctower - 2020.06.22 at 17h 58m 49s.xml">
+      <configuration name="All in dctower" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_dctower - 2020.06.22 at 18h 04m 06s.xml">
+      <configuration name="All in dctower" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10615000" />
+    <option name="totallyTimeSpent" value="13427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -322,12 +446,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3821656" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3821656" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -352,7 +476,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="added some java doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some java doc" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/DctowerApplication.java">
@@ -370,13 +495,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/Validators/Validator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/exceptions/ValidationException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -399,26 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlaneImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/Validators/FloorValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ElevatorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -436,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/at/norale/dctower/service/ControlPlaneImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/at/norale/dctower/DctowerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -457,10 +548,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="375">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlaneImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2306#2307#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2372#2373#0" expanded="true" />
+            <element signature="e#2407#2408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/Validators/FloorValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="78" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/at/norale/dctower/controller/ControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/at/norale/dctower/service/ControlPlaneImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
