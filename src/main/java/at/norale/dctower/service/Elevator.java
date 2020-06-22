@@ -1,6 +1,7 @@
 package at.norale.dctower.service;
 
 public interface Elevator {
+
   public int getId();
 
   public int getCurrentFloor();
