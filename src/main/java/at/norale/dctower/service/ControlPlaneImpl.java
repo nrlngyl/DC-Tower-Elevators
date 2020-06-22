@@ -1,6 +1,6 @@
 package at.norale.dctower.service;
 
-import at.norale.dctower.Validators.FloorValidator;
+import at.norale.dctower.validators.FloorValidator;
 import at.norale.dctower.exceptions.ServiceException;
 import at.norale.dctower.exceptions.ValidationException;
 import org.slf4j.Logger;

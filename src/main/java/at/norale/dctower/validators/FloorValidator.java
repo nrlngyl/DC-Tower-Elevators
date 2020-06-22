@@ -1,4 +1,4 @@
-package at.norale.dctower.Validators;
+package at.norale.dctower.validators;
 
 import at.norale.dctower.exceptions.ValidationException;
 import org.slf4j.Logger;

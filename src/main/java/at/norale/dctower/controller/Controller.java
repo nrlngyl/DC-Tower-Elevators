@@ -1,17 +1,13 @@
 package at.norale.dctower.controller;
 
-import at.norale.dctower.Validators.FloorValidator;
 import at.norale.dctower.exceptions.ServiceException;
-import at.norale.dctower.exceptions.ValidationException;
 import at.norale.dctower.service.ControlPlane;
-import at.norale.dctower.service.Elevator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
