@@ -35,6 +35,8 @@ public class ControlPlaneImpl implements ControlPlane {
     LOGGER.info(
         "Transport elevator from floor #" + startingFloor + " to floor #" + destinationFloor);
 
+    String feedback;
+
     try {
       floorValidator.validator(startingFloor, destinationFloor, LOWEST_FLOOR, HIGHEST_FLOOR);
 
@@ -42,17 +44,25 @@ public class ControlPlaneImpl implements ControlPlane {
       throw new ServiceException(ve.getMessage(), ve);
     }
 
-    Elevator nearestElevator = elevators.get(0);
-    int nearestDistance = 55;
-    for (Elevator elevator : elevators) {
-      int distance = Math.abs(startingFloor - elevator.getCurrentFloor());
-      if (distance < nearestDistance) {
-        nearestDistance = distance;
-        nearestElevator = elevator;
+    if (elevators.size() > 0) {
+      Elevator nearestElevator = elevators.get(0);
+
+      int nearestDistance = 55;
+      for (Elevator elevator : elevators) {
+        int distance = Math.abs(startingFloor - elevator.getCurrentFloor());
+        if (distance < nearestDistance) {
+          nearestDistance = distance;
+          nearestElevator = elevator;
+        }
       }
+      nearestElevator.setCurrentFloor(destinationFloor);
+      feedback = "Elevator " + nearestElevator.getId() + " moved to " + destinationFloor;
+      LOGGER.info(feedback);
+    } else {
+      feedback = "There are no elevators in the system.";
+      LOGGER.error(feedback);
     }
-    nearestElevator.setCurrentFloor(destinationFloor);
-    return "Elevator " + nearestElevator.getId() + " moved to " + destinationFloor;
+    return feedback;
   }
 
   @Override
