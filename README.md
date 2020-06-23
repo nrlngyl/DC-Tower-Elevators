@@ -1,4 +1,4 @@
-# DC-Tower-IBM
+# DC-Tower-Elevators
 DC Tower Elevator Challenge
 
 The task:
