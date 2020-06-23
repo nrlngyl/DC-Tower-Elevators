@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6005f2d8-2abe-48ff-a509-83dc67cc5151" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlaneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlaneImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,11 +51,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlaneImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="159">
               <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2544#2545#0" expanded="true" />
                 <element signature="e#2570#2571#0" expanded="true" />
+                <element signature="e#2621#2622#0" expanded="true" />
                 <element signature="e#2657#2658#0" expanded="true" />
               </folding>
             </state>
@@ -126,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="180">
               <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -166,11 +168,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="34" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1406" />
-    <option name="height" value="863" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -382,7 +383,8 @@
       <workItem from="1592826582923" duration="8271000" />
       <workItem from="1592836948878" duration="1501000" />
       <workItem from="1592839251721" duration="4317000" />
-      <workItem from="1592852472307" duration="368000" />
+      <workItem from="1592852472307" duration="532000" />
+      <workItem from="1592897560249" duration="538000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1592835148894</created>
@@ -419,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592844415836</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed a possible error in the controller service">
+      <created>1592852924109</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592852924109</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -437,13 +446,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15000000" />
+    <option name="totallyTimeSpent" value="15702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2453505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -461,7 +470,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3299363" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -486,7 +495,8 @@
     <MESSAGE value="added some java doc" />
     <MESSAGE value="added more tests" />
     <MESSAGE value="reformatted the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformatted the code" />
+    <MESSAGE value="fixed a possible error in the controller service" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a possible error in the controller service" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/DctowerApplication.java">
@@ -596,7 +606,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="180">
           <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -606,7 +616,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/norale/dctower/service/ControlPlaneImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="159">
           <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
